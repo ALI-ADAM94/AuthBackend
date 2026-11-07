@@ -12,7 +12,9 @@ connectDB();
 //Middleware 
 app.use(express.json());
 app.use("/api/auth",authRoutes);
-
+app.use("/",(req,res)=>{
+      res.send("Hello world");
+})
 
 // server listen
 app.listen(PORT,()=>{
