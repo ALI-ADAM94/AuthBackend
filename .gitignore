@@ -1,4 +1,5 @@
 node_modules
 */.postman
 .postman/resources.yaml
+postman
 .env
